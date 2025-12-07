@@ -1,0 +1,6 @@
+MODEL:
+  TYPE: h_vittt_base
+  NAME: h_vittt_base
+  DROP_PATH_RATE: 0.6
+TRAIN:
+  MESA: 2.0

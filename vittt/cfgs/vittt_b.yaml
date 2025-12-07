@@ -1,0 +1,4 @@
+MODEL:
+  TYPE: vittt_base
+  NAME: vittt_base
+  DROP_PATH_RATE: 0.4

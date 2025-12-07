@@ -1,0 +1,4 @@
+MODEL:
+  TYPE: h_vittt_tiny
+  NAME: h_vittt_tiny
+  DROP_PATH_RATE: 0.2
