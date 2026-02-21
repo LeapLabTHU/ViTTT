@@ -4,6 +4,10 @@ This repo contains the official PyTorch code and pre-trained models for **Vision
 
 + $\text{ViT}^3$: [Unlocking Test-Time Training in Vision](https://arxiv.org/abs/2512.01643)
 
+## News
+
+- February 21 2026: **Accepted to CVPR 2026.** Final ratings: 6, 6, 5 (min: 1 Reject, max: 6 Accept).
+
 ## Abstract
 
 <p align="center">
