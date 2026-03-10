@@ -79,10 +79,10 @@ python -m torch.distributed.launch --nproc_per_node=8 main_ema.py --cfg <path-to
 If you find this repo helpful, please consider citing us.
 
 ```latex
-@article{han2025vit,
+@inproceedings{han2025vit,
   title={ViT$^3$: Unlocking Test-Time Training in Vision},
   author={Han, Dongchen and Li, Yining and Li, Tianyu and Cao, Zixuan and Wang, Ziming and Song, Jun and Cheng, Yu and Zheng, Bo and Huang, Gao},
-  journal={arXiv preprint arXiv:2512.01643},
-  year={2025}
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2026}
 }
 ```
