@@ -18,7 +18,7 @@ Test-Time Training (TTT) has recently emerged as a promising direction for effic
 
 ## Usage
 
-We provide a minimal implementation of $\text{ViT}^3$ block in [ttt_block.py](./ttt_block.py), which can act as a plug-in module in various vasion tasks. 
+We provide a minimal implementation of $\text{ViT}^3$ block in [ttt_block.py](./ttt_block.py), which can act as a plug-in module in various vision tasks. 
 
 - Example:
 
