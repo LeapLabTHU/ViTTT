@@ -68,7 +68,7 @@ class TTT(nn.Module):
         z2 = k @ w2
         sig = F.sigmoid(z2)
         a = z2 * sig
-        # v_hat = a
+        # v_hat = z1 * a
         # l = (v_hat * v).sum(dim=3).mean(dim=2) * self.scale
         # Notably, v_hat and l are not computed here because
         # they are unnecessary for deriving the gradient expression below.
