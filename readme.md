@@ -6,6 +6,8 @@ This repo contains the official PyTorch code and pre-trained models for **Vision
 
 ## News
 
+- May 28 2026: Code for detection and segmentation is released.
+
 - April 09 2026: **Selected as an oral.**
 
 - February 21 2026: **Accepted to CVPR 2026.** Final ratings: 6, 6, 5 (min: 1 Reject, max: 6 Accept).
