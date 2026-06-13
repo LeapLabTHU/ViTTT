@@ -37,7 +37,7 @@ x = block(x, h=16, w=16)
 
 ## Results
 
-Please go to the folder [vittt](./vittt) for specific document.
+Please go to the folders [vittt](./vittt), [detection](./detection), and [segmentation](./segmentation) for specific documents.
 
 ## Acknowledgements
 
