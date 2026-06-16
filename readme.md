@@ -6,6 +6,8 @@ This repo contains the official PyTorch code and pre-trained models for **Vision
 
 ## News
 
+- June 16, 2026: Code for generation is released.
+
 - June 05, 2026: **Selected as a Best Paper Finalist (15 out of 16,092 submissions).**
 
 - May 28, 2026: Code for detection and segmentation is released.
@@ -37,11 +39,11 @@ x = block(x, h=16, w=16)
 
 ## Results
 
-Please go to the folders [vittt](./vittt), [detection](./detection), and [segmentation](./segmentation) for specific documents.
+Please go to the folders [vittt](./vittt), [dittt](./dittt), [detection](./detection), and [segmentation](./segmentation) for specific documents.
 
 ## Acknowledgements
 
-This code is developed on the top of [Swin Transformer](https://github.com/microsoft/Swin-Transformer) and [MILA](https://github.com/LeapLabTHU/MLLA). 
+This code is developed on the top of [Swin Transformer](https://github.com/microsoft/Swin-Transformer), [MILA](https://github.com/LeapLabTHU/MLLA), [DiT](https://github.com/facebookresearch/DiT) and [mmcv](https://github.com/open-mmlab/mmcv). 
 
 ## Citation
 
