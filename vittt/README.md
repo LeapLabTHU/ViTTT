@@ -62,17 +62,19 @@ python -m torch.distributed.launch --nproc_per_node=8 main_ema.py --cfg <path-to
 
 ## Train Models from Scratch
 
-- To train $\text{ViT}^3$ on ImageNet from scratch, run:
+To train $\text{ViT}^3$ on ImageNet from scratch, run:
 
 ```shell
 python -m torch.distributed.launch --nproc_per_node=8 main.py --cfg <path-to-config-file> --data-path <imagenet-path> --output <output-path> --amp
 ```
 
-- To train $\text{H-ViT}^3$ on ImageNet from scratch, run:
+To train $\text{H-ViT}^3$ on ImageNet from scratch, run:
 
 ```shell
 python -m torch.distributed.launch --nproc_per_node=8 main_ema.py --cfg <path-to-config-file> --data-path <imagenet-path> --output <output-path> --amp
 ```
+
+**Note:** $\text{H-ViT}^3\text{-S}$ and $\text{H-ViT}^3\text{-B}$ were trained in full FP32 (without `--amp`). Please do not pass `--amp` when reproducing these two models.
 
 ## Citation
 
