@@ -8,9 +8,9 @@ Our experiments are conducted on ADE20K dataset based on [mmsegmentation](https:
 
 |  Backbone   |  Pretrain   | Lr Schd | mIoU (SS) | #params | FLOPs |                  config                  |                            model                             |
 | :---------: | :---------: | :-----: | :-------: | :-----: | :---: | :--------------------------------------: | :----------------------------------------------------------: |
-| $\text{H-ViT}^3\text{-T}$ | ImageNet-1K |  160K   |   48.0    |  57.9M  | 946G  | [config](./configs/vittt/vittt_tiny.py)  | [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/df39e508ae5b49c59cca/?dl=1) |
-| $\text{H-ViT}^3\text{-S}$ | ImageNet-1K |  160K   |   50.2    |  83.6M  | 1026G | [config](./configs/vittt/vittt_small.py) | [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/71c786dd7e8046b5ab43/?dl=1) |
-| $\text{H-ViT}^3\text{-B}$ | ImageNet-1K |  160K   |   51.7    |  124M   | 1195G | [config](./configs/vittt/vittt_base.py)  | [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/6bd6db157003462f9fed/?dl=1) |
+| $\text{H-ViT}^3\text{-T}$ | ImageNet-1K |  160K   |   48.0    |  57.9M  | 946G  | [config](./configs/vittt/vittt_tiny.py)  | [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/a6748b92cd8343e881a6/?dl=1) |
+| $\text{H-ViT}^3\text{-S}$ | ImageNet-1K |  160K   |   50.2    |  83.6M  | 1026G | [config](./configs/vittt/vittt_small.py) | [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/310a4da3f90b4c08a080/?dl=1) |
+| $\text{H-ViT}^3\text{-B}$ | ImageNet-1K |  160K   |   51.7    |  124M   | 1195G | [config](./configs/vittt/vittt_base.py)  | [TsinghuaCloud](https://cloud.tsinghua.edu.cn/f/48da9339e46c44e88870/?dl=1) |
 
 
 ## Usage
